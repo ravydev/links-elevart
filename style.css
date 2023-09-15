@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-inline: 5rem;
+    
+
+    background-color:#141414;   
+}
+
+
+img {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: auto;
+    height: 7.3rem;
+    border-radius: 5rem;
+
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 0.9rem;
+    font-size: 0.7rem;
+    font-weight: 200 ;
+}
+
+header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+
+}
+
+.container-botoes{
+}
+
+.cabecario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.1rem;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-size: 0.55rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.frasezinha {
+    font-size: 0.50rem;
+    color: rgb(201, 201, 201);
+}
+
+
+
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+
+
+}
+
+ul {
+    margin-bottom: 2rem;
+}
+
+a {
+    height: 3.3rem;
+    width:18rem;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    color: #282828e8;
+
+
+
+    background: linear-gradient(90deg, rgba(244,19,53,1) 0%, rgba(246,122,60,1) 55%);   
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 0.5rem;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    background: linear-gradient(90deg, rgba(246,122,60,1) 0%, rgba(244,19,53,1) 55%); 
+    color: rgb(255, 255, 255);
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.8s;
+}
+
+svg , path {
+    stroke: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+}
+
+a:hover svg  path{
+
+    stroke: rgb(255, 255, 255);
+    fill: rgb(200, 200, 200);
+    transition: 0.7s;
+  }
+
+svg {
+    margin-left:0.5rem;
+}
+
+
+@media (min-width: 800px) {
+    
+    body{
+
+        margin-block: 8rem;
+
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    header {
+        margin-right: 8rem;
+        margin-bottom: 8rem;
+    }
+
+    img {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        width: auto;
+        height: 10rem;
+        border-radius: 5rem;
+    
+
+    
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    
+    }
+    
+
+    footer, h5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 0.5rem;
+        font-size: 0.7rem;
+        font-weight: 200 ;
+    }    
+
+    
+
+}
